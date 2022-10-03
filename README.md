@@ -1,6 +1,6 @@
 # API Rest  - Prueba técnica (MVC pattern)
 
-** PDF con información detallada de cada parte del proyecto ** 
+** PDF con información detallada de cada parte del proyecto **<br> 
 https://github.com/axiss-code/APIRest-SpringBoot/blob/main/Explicaciones.pdf
 
 
