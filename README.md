@@ -23,7 +23,7 @@ Instrucciones
 - El repositorio incluye en el directorio /target un jar con la aplicación empaquetada
     - Desde una consola de comandos:  java -jar target/jfc-0.0.1-SNAPSHOT.jar
     - Y estará disponible en la siguiente URL: http://localhost:8080
-    - El gestor de BD embebido: http://localhost:8080/h2-console. (usuario=ps | pass en blanco)
+    - El gestor de BD embebido: http://localhost:8080/h2-console. (usuario=sa | password vacío)
     - La interfaz de Swagger: http://localhost:8080/swagger-ui/
 
 - La aplicación contiene datos de ejemplo que se inicializan en memoria cada vez que se arranca. (DataLoader.class)
