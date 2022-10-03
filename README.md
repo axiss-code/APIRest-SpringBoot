@@ -28,10 +28,9 @@ Instrucciones
 
 - La aplicación contiene datos de ejemplo que se inicializan en memoria cada vez que se arranca. (DataLoader.class)
     
-- En resumen, el funcionamiento general lo he planteado siguiendo XXXX premisas:
+- En resumen, el funcionamiento general lo he planteado siguiendo estas premisas:
     - Que lo que se reciba en el Endpoint sea siempre un JSON con un mismo "formato": status + mensaje
-	- Para pasar los Strings a Json he usado Gson antes de que ResponseEntity los devuelva.
+    - Para pasar los Strings a Json he usado Gson antes de que ResponseEntity los devuelva.
     - Las Excepciones también son formateadas y contraladas desde una clase centralizada.
     - He usado ModelMapper en lugar de MapStrut porque ya estaba familiarizado con él.
-	- Se incluye Dockerfile
-
+    - Se incluye Dockerfile
